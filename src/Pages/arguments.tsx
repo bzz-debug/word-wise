@@ -31,6 +31,17 @@ export function Arguments() {
         clear of arguing ........... You can see what he has to say on the
         matter here:
       </p>
+      <div className="video-responsive">
+        <iframe
+          width="853"
+          height="480"
+          src={`https://www.youtube.com/embed/IDj1OBG5Tpw`}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title="Embedded youtube"
+        />
+      </div>
       {/*insert video / link element???? Not sure how it works in react https://www.youtube.com/watch?v=IDj1OBG5Tpw&ab_channel=BigThink */}
 
       <p>

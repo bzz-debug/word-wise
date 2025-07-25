@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+
+#hook {
+  color: rgb(180, 119, 6);
+}
+
+#hook2 {
+  color: rgb(150, 116, 66);
+}
+
+#hook,
+#hook2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
